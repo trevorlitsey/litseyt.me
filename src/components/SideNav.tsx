@@ -27,10 +27,6 @@ const links = [
     label: 'fun',
   },
   {
-    to: '/webapps',
-    label: 'web apps',
-  },
-  {
     to: '/links',
     label: 'links',
   },
