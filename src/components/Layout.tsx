@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import styled from 'styled-components'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
@@ -24,6 +24,7 @@ export const Wrapper = styled.div`
 `
 
 interface Props {
+  children: typeof React.Children
   currentUrlPath: string
 }
 
@@ -35,13 +36,16 @@ interface Data {
   }
 }
 
-const Layout: React.SFC<Props> = ({ children, currentUrlPath, ...props }) => {
-  const renderData: React.SFC<Data> = data => (
+const Layout = ({ children, currentUrlPath, ...props }: Props) => {
+  const renderData = (data: Data) => (
     <>
       <Helmet
         title={data.site.siteMetadata.title}
         meta={[
-          { charset: 'UTF-8' },
+          {
+            name: 'x-robots-tag',
+            content: 'all'
+          },
           {
             name: 'description',
             content: 'Personal website of Trevor Litsey',
