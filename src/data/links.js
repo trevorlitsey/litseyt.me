@@ -28,7 +28,7 @@ export const peopleLinks = [
     label: 'mitch',
   },
   {
-    href: 'http://plays.gratis',
+    href: 'http://www.musicallaround.us',
     label: 'noah',
   },
 ]
