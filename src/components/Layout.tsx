@@ -44,7 +44,7 @@ const Layout = ({ children, currentUrlPath, ...props }: Props) => {
         meta={[
           {
             name: 'x-robots-tag',
-            content: 'all'
+            content: 'all',
           },
           {
             name: 'description',
@@ -59,8 +59,12 @@ const Layout = ({ children, currentUrlPath, ...props }: Props) => {
           },
           { property: 'og:title', content: 'Trevor Litsey' },
           { property: 'og:type', content: 'website' },
-          { property: 'og:url', content: 'http://litseyt.me/' },
-          { property: 'og:image', content: 'https://res.cloudinary.com/sadness/image/upload/v1525134507/trevorlitsey.com/josef.png' },
+          { property: 'og:url', content: 'http://trevorlitsey.com' },
+          {
+            property: 'og:image',
+            content:
+              'https://res.cloudinary.com/sadness/image/upload/v1525134507/trevorlitsey.com/josef.png',
+          },
           { property: 'og:type', content: 'website' },
           { property: 'og:site_name', content: 'trevorlitsey.com' },
         ]}
