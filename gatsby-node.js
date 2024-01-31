@@ -12,13 +12,9 @@ exports.createPages = async ({ graphql, actions }) => {
 
   // "art" sites
   const sitesPageTemplate = path.resolve('src/templates/SitesPage.tsx')
-  const {
-    blues,
-    diyPostmodern,
-    freelance,
-    thisIsNotASadBoy,
-    fun,
-  } = require(path.resolve('./src/data/sites'))
+  const { blues, diyPostmodern, freelance, thisIsNotASadBoy, fun } = require(
+    path.resolve('./src/data/sites')
+  )
 
   const sitesPages = [
     { emoji: '🔷', pagePath: '/blue', sites: blues, title: 'blue' },
@@ -26,19 +22,19 @@ exports.createPages = async ({ graphql, actions }) => {
       emoji: '⌇',
       pagePath: '/diypostmodern',
       sites: diyPostmodern,
-      title: 'DIY Postmodern',
+      title: 'diy postmodern',
     },
     {
       emoji: '😔',
       pagePath: '/thisisnotasadboy',
       sites: thisIsNotASadBoy,
-      title: 'This Is Not A Sad Boy',
+      title: 'this is not a sad boy',
     },
     {
       emoji: '✨',
       pagePath: '/fun',
       sites: fun,
-      title: 'Fun',
+      title: 'fun',
     },
   ]
 

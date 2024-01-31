@@ -174,6 +174,14 @@ exports.diyPostmodern = [
 
 exports.thisIsNotASadBoy = [
   {
+    href: 'https://thisisnotasadboy.trevorlitsey.com/every-love-story',
+    placeholderImgSrc:
+      'https://res.cloudinary.com/sadness/image/upload/h_1,w_1/v1706670219/every-love-story.gif',
+    imgSrc:
+      'https://res.cloudinary.com/sadness/image/upload/v1706670219/every-love-story.gif',
+    label: 'every love story',
+  },
+  {
     href: 'https://thisisnotasadboy.trevorlitsey.com/ptrk',
     placeholderImgSrc:
       'https://res.cloudinary.com/sadness/image/upload/h_1,w_1/v1525134507/trevorlitsey.com/ptrk.gif',
@@ -181,7 +189,6 @@ exports.thisIsNotASadBoy = [
       'https://res.cloudinary.com/sadness/image/upload/v1525134507/trevorlitsey.com/ptrk.gif',
     label: 'ptrk',
   },
-
   {
     href: 'https://thisisnotasadboy.trevorlitsey.com/a-fair-amount-of-failures',
     placeholderImgSrc:
