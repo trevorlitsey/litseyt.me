@@ -13,7 +13,9 @@ interface Props {
 const ContactPage: React.SFC<Props> = ({ location: { pathname } }) => {
   return (
     <Layout currentUrlPath={pathname}>
-      <h1>Contact <span>☎️</span></h1>
+      <h1>
+        contact <span>🤳</span>
+      </h1>
       <TextContent>
         <p style={{ textAlign: 'center' }}>↓ ↓ ↓</p>
       </TextContent>

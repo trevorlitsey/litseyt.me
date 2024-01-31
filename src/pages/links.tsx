@@ -49,13 +49,10 @@ interface LinksPageProps {
 const LinksPage: React.SFC<LinksPageProps> = ({ location: { pathname } }) => {
   return (
     <Layout currentUrlPath={pathname}>
-      <h1>Links 🔗</h1>
+      <h1>links 🔗</h1>
       <TextContent>
         <p style={{ textAlign: 'center' }}>
-          <i>
-            a list of friends and interests, in no particular order, in
-            the spirit of a simpler time
-          </i>
+          <i>just a lil list</i>
         </p>
         <LinksTitle>Art:</LinksTitle>
         <LinkList links={artLinks} />

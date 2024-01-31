@@ -14,14 +14,16 @@ interface Props {
 const IndexPage: React.SFC<Props> = ({ location: { pathname } }) => (
   <Layout currentUrlPath={pathname}>
     <h1>
-      Hello <span>👋</span>
+      hello <span>👋</span>
     </h1>
     <TextContent>
-      <p>Hi. My name is Trevor. Welcome.</p>
-      <p>
-        I'm a web developer and former music manager living in Minneapolis, MN.
+      <p
+        style={{
+          textAlign: 'center',
+        }}
+      >
+        hi :)
       </p>
-      <p>Stick around and say hello if you feel like it. Thanks for visiting. It's good to have you.</p>
     </TextContent>
     <Socials />
   </Layout>
