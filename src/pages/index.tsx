@@ -22,7 +22,7 @@ const IndexPage: React.SFC<Props> = ({ location: { pathname } }) => (
           textAlign: 'center',
         }}
       >
-        hi :)
+        hi 🦕
       </p>
     </TextContent>
     <Socials />
