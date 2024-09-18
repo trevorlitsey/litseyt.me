@@ -233,6 +233,14 @@ exports.thisIsNotASadBoy = [
 
 exports.fun = [
   {
+    href: 'https://twitter.trevorlitsey.com/',
+    placeholderImgSrc:
+      'https://res.cloudinary.com/sadness/image/upload/h_1,w_1/v1528057225/trevorlitsey.com/twitter.png',
+    imgSrc:
+      'https://res.cloudinary.com/sadness/image/upload/h_590,w_590/v1726631587/trevorlitsey.com/twitter.png',
+    label: 'twitter',
+  },
+  {
     href: 'https://goodnotgood.trevorlitsey.com/',
     placeholderImgSrc:
       'https://res.cloudinary.com/sadness/image/upload/h_1,w_1/v1528057225/trevorlitsey.com/winow-waffle.jpg',
