@@ -48,7 +48,7 @@ const Layout = ({ children, currentUrlPath, ...props }: Props) => {
           },
           {
             name: 'description',
-            content: 'Personal website of Trevor Litsey',
+            content: 'my website. come by for a minute.',
           },
           { name: 'keywords', content: 'trevor litsey' },
           { httpEquiv: 'Content-Type', content: 'text/html; charset=utf-8' },
